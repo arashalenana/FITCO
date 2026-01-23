@@ -17,7 +17,7 @@ $result = $conn->query("SELECT * FROM fitco");
 <body>
     <div class="submission">
 
-<h2>Submitted Submissions</h2>
+<h2>Form Submissions</h2>
 <div class="table_container">
 <table>
     <tr>
