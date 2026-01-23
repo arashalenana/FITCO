@@ -1,0 +1,101 @@
+<?php
+    include("php/connection.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-F1TCO</title>
+    <link rel="icon" type="icon.jpg" href="images/fitco_logo1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <img src="images/fitco_logo.png" alt="fitco logo"/>
+        <div class="main_menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="studios.html">STUDIOS</a></li>
+                <li><a href="location.html">LOCATIONS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
+            </ul>
+        </div>
+        <button onclick="document.location='contact.php'">OWN A FITCO</button>
+    </header>
+    <section class="main_contact_section">
+        <h1>Headquaters</h1>
+        <section class="contact_section">
+        <div class="contact_item">
+            <h3><i class="fa-solid fa-envelope"></i> Email Address</h3>
+            <p>info@f1tco.com</p>
+        </div>
+        <div class="contact_item">
+            <h3><i class="fa-solid fa-location-dot"></i> Location</h3>
+            <p><pre>F1TCO Unit 1 & Unit 2
+Lea Brook Business Centre,<br>Burnley Road, RawtenstallBB4<br> 8HH</pre></p>
+        </div>
+        <div class="contact_item">
+            <h3><i class="fa-solid fa-phone"></i> Contact Number</h3>
+            <p>+44 7385 605874</p>
+        </div>
+    </section>
+        <div id="contact_container">
+            <h2>Contact Us</h2>
+        <form name=submission_form method="POST" action="php/submission.php">
+        <input type="text" id="person_name" name="person_name" placeholder="Enter name" required>
+        <br><br>
+        <input type="email" id="person_email" name="person_email" placeholder="Enter email" required>
+        <br><br>
+        <input type="number" id="person_number" name="person_number" placeholder="Phone/Mobile" required>
+        <br><br>
+        <input type="submit" id="submit_button" name="submit_button" value="Submit">
+        </form>
+        </div>
+    <section class="question">
+        <p>Interested in knowing more on how to become a qualified Personal Trainer with F1TCO?</p>
+        <button onclick="document.location='about.html'"><b>About Us &#8594;</b></button>
+    </section>
+    <footer>
+        <section class="find_us_section">
+            <div class="find_us_item">
+                <img src="images/fitco_logo.png" alt="logo"/>
+            </div>
+            </div>
+            <div class="find_us_item">
+                <h4>Address</h4>
+                <i class="fas fa-location-dot find_us_icon"></i>
+               <pre>
+F1TCO Unit 1 & Unit 2
+Lea Brook Business Centre, 
+Burnley Road,
+Rawtenstall BB4 8HH
+               </pre>
+            </div>
+            <div class="find_us_item">
+                <h4>Phone Number</h4>
+                <i class="fas fa-phone find_us_icon"></i>
+                <a href="tel:+447385605874">+44 7385 605874</a>
+            </div>
+            <div class="find_us_item">
+                <h4>Email Us</h4>
+                <i class="fas fa-envelope find_us_icon"></i>
+                <a href="mailto:info@f1tco.com">info@f1tco.com</a>
+            </div>
+            <div class="find_us_item">
+                <h4>Follow Us</h4>
+                <a href="https://x.com/FitcoIndonesia" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/fitcogym?igsh=eW00cHk0MnE2YjE4" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@fitcohb?_r=1&_t=ZS-939kk9Uaww1" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </section>
+        <section class="copyright">
+            <p>&copy;2025 The F1TCO Club. All Rights Reserved.</p>
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
