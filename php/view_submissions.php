@@ -40,7 +40,7 @@ $result = $conn->query("SELECT * FROM fitco");
 </table>
 </div>
 <br>
-<a href="../contact.html">Back to Form</a>
+<a href="../contact.php">Back to Form</a>
 </div>
 </body>
 </html>

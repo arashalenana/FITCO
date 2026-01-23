@@ -21,10 +21,10 @@
                 <li><a href="location.html">LOCATIONS</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="blog.html">BLOG</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </div>
-        <button onclick="document.location='contact.html'">OWN A FITCO</button>
+        <button onclick="document.location='contact.php'">OWN A FITCO</button>
     </header>
     <section class="main_contact_section">
         <h1>Headquaters</h1>

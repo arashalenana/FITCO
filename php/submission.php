@@ -17,7 +17,7 @@
 
         if($count_email==0) {
           echo "<script>
-                window.location.href='contact.html';
+                window.location.href='contact.php';
                 alert('Submission successful!');
                 </script>";
             $sql = "insert into fitco(name,email,phone) values('$name','$email','$phone')";
@@ -29,7 +29,7 @@
         else {
             if($count_email>0){
                 echo "<script>
-                window.location.href='contact.html';
+                window.location.href='contact.php';
                 alert('Submission fail!');
                 </script>";
             }
