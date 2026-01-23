@@ -12,6 +12,7 @@ $result = $conn->query("SELECT * FROM fitco");
 <html>
 <head>
     <title>View Submissions</title>
+    <link rel="icon" type="icon.jpg" href="images/fitco_logo1.png">
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
@@ -39,7 +40,7 @@ $result = $conn->query("SELECT * FROM fitco");
 </table>
 </div>
 <br>
-<a href="../contact.php">Back to Form</a>
+<a href="../contact.html">Back to Form</a>
 </div>
 </body>
 </html>
