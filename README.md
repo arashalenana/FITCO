@@ -3,4 +3,4 @@ A Fitness Website showcasing gym facilities and contact details.
 
 Tech Stack
 HTML5, CSS3, Javascript
-Basic PHP for backend - Run locally with XAMPP
+Basic PHP for backend
